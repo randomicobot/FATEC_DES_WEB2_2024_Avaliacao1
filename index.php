@@ -3,7 +3,7 @@
 
  if($_SERVER["REQUEST_METHOD"] == "POST"){
     session_start();
-    if($_POST['username'] == 'orlando' and $_POST['password'] == '123mudar'){
+    if($_POST['username'] == 'portaria' and $_POST['password'] == 'Fatecararas'){
         $_SESSION['loggedin'] = TRUE;
         $_SESSION["username"] = 'Fatec Araras';
          header("location: tela_aceitar.php");
